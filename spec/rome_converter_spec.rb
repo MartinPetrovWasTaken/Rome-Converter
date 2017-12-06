@@ -83,8 +83,8 @@ describe RomeConverter do
 			end	 
 		end
 		context "MMMMCMXCIX" do
-			it "returns 4999" do 
-				expect(RomeConverter.new.to_dec("MMMCMXCIX")).to eq 4999
+			it "returns 3999" do 
+				expect(RomeConverter.new.to_dec("MMMCMXCIX")).to eq 3999
 			end	 
 		end
 	end
